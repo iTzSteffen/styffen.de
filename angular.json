@@ -58,10 +58,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "styffen.de:build:production"
+              "buildTarget": "styffen.de:build:production"
             },
             "development": {
-              "browserTarget": "styffen.de:build:development"
+              "buildTarget": "styffen.de:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -69,7 +69,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "styffen.de:build"
+            "buildTarget": "styffen.de:build"
           }
         },
         "test": {
